@@ -1,11 +1,10 @@
 # code your #position_taken? method here
 
-board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 def position_taken?(board, index)
   if board[index] != " "
     puts "Invalid. Try again."
-    false 
   else
     true  
   end
